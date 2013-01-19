@@ -9,7 +9,7 @@ worker_processes 6
 preload_app true
 
 # capistrano 用に RAILS_ROOT を指定
-working_directory "/var/www/#{application}"
+# working_directory "/var/www/#{application}"
 
 if ENV['RAILS_ENV'] == 'production'
   shared_path = "/var/www/#{application}/shared"
