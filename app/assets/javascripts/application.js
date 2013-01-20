@@ -12,4 +12,8 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require underscore
+//= require backbone
+//= require backbone.fetch-cache
+//= require hogan.js
 //= require_tree .
